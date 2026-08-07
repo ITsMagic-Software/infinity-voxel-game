@@ -1,0 +1,11 @@
+
+ //[I-S]LN=1;[I-E]
+// Useful imports //[I-S]LN=2;[I-E]
+import java.util.*; //[I-S]LN=3;[I-E]
+ //[I-S]LN=4;[I-E]
+/** @Author Lucas Leandro (ITsMagic Founder) */ //[I-S]LN=5;[I-E]
+interface IFPPlayer { //[I-S]LN=6;[I-E]
+   void addWaterTrigger(Component comp); //[I-S]LN=7;[I-E]
+   void removeWaterTrigger(Component comp); //[I-S]LN=8;[I-E]
+   boolean isOnWater(); //[I-S]LN=9;[I-E]
+} //[I-S]LN=10;[I-E]
