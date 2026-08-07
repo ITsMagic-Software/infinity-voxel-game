@@ -1,0 +1,11 @@
+
+ //[I-S]LN=1;[I-E]
+// Useful imports //[I-S]LN=2;[I-E]
+import java.util.*; //[I-S]LN=3;[I-E]
+ //[I-S]LN=4;[I-E]
+/** @Author Lucas Leandro (ITsMagic Founder) */ //[I-S]LN=5;[I-E]
+interface IFPStepsEmitter { //[I-S]LN=6;[I-E]
+    void onWalk(float speed, PhysicsComponent physicsEntity, IFPPlayer player); //[I-S]LN=7;[I-E]
+    void addSoundDic(IFPSoundDic dic); //[I-S]LN=8;[I-E]
+    void prepareImmediate(); //[I-S]LN=9;[I-E]
+}  //[I-S]LN=10;[I-E]
