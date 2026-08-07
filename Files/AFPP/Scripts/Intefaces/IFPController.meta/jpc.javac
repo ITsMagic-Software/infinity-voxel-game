@@ -1,0 +1,11 @@
+
+ //[I-S]LN=1;[I-E]
+/** //[I-S]LN=2;[I-E]
+ * @Author Lucas Leandro (ITsMagic Founder) //[I-S]LN=3;[I-E]
+*/ //[I-S]LN=4;[I-E]
+interface IFPController { //[I-S]LN=5;[I-E]
+   Vector2 getWalkDir(); //[I-S]LN=6;[I-E]
+   Vector2 getSlideAxis(); //[I-S]LN=7;[I-E]
+   boolean wantJump(); //[I-S]LN=8;[I-E]
+   boolean wantRun(); //[I-S]LN=9;[I-E]
+} //[I-S]LN=10;[I-E]
