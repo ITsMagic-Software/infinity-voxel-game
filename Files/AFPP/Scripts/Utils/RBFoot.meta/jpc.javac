@@ -1,0 +1,14 @@
+class RBFoot extends Component {
+   /* @Author ITsMagic */ //[I-S]LN=0;[I-E]
+    //[I-S]LN=1;[I-E]
+   /// Run only once //[I-S]LN=2;[I-E]
+   void start() {} //[I-S]LN=3;[I-E]
+    //[I-S]LN=4;[I-E]
+   /// Repeat every frame //[I-S]LN=5;[I-E]
+   void repeat() {} //[I-S]LN=6;[I-E]
+    //[I-S]LN=7;[I-E]
+   @Override //[I-S]LN=8;[I-E]
+   public String getComponentMenu() { //[I-S]LN=9;[I-E]
+     return "AFPP"; //[I-S]LN=10;[I-E]
+   }  //[I-S]LN=11;[I-E]
+}
